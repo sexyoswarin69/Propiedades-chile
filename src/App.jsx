@@ -33,16 +33,20 @@ function App() {
       <Navbar filtros={filtros} setFiltros={setFiltros} />
 
       {/* 2. Hero Section con CTA */}
-      <section className="bg-dark text-white py-5 text-center position-relative" style={{
-        backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1920&q=80")',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center'
-      }}>
+      <section className="py-5 text-center" style={{ backgroundColor: '#f7f5f2' }}>
         <div className="container py-5">
-          <h1 className="display-4 fw-bold text-warning mb-3">Encuentra tu próximo hogar en Chile</h1>
-          <p className="lead fs-4 mb-4 text-light">Descubre las mejores casas y departamentos disponibles en el mercado.</p>
-          <a href="#propiedades-seccion" className="btn btn-warning btn-lg px-4 fw-bold shadow-sm">
+          <span className="badge rounded-pill px-3 py-2 mb-3" style={{ backgroundColor: 'rgba(231,111,81,0.12)', color: '#d15637' }}>
+            <i className="bi bi-geo-alt-fill me-1"></i> Propiedades en todo Chile
+          </span>
+          <h1 className="display-4 fw-bold mb-3" style={{ color: '#264653' }}>
+            Encuentra tu próximo <span className="text-coral">hogar</span>
+          </h1>
+          <p className="lead fs-4 mb-4 text-secondary">Descubre las mejores casas y departamentos disponibles en el mercado.</p>
+          <a href="#propiedades-seccion" className="btn btn-coral btn-lg px-4 fw-bold shadow-sm">
             <i className="bi bi-house-fill me-2"></i> Ver Propiedades
+          </a>
+          <a href="#contacto-seccion" className="btn btn-outline-secondary btn-lg px-4 fw-bold ms-2 mt-2 mt-sm-0">
+            Hablar con un asesor
           </a>
         </div>
       </section>

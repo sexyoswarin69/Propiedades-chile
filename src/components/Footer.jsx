@@ -2,13 +2,13 @@ import React from 'react';
 
 function Footer() {
   return (
-    <footer className="bg-dark text-white pt-5 pb-3 mt-auto border-top border-warning border-3">
+    <footer className="bg-slate text-white pt-5 pb-3 mt-auto border-top border-coral border-3">
       <div className="container">
         <div className="row g-4 mb-4">
           
           {/* Columna 1: Info Empresa */}
           <div className="col-12 col-md-6 col-lg-4">
-            <h5 className="text-warning fw-bold mb-3">
+            <h5 className="text-coral fw-bold mb-3">
               <i className="bi bi-building-house me-2"></i>Propiedad Chile
             </h5>
             <p className="text-muted small lh-base">

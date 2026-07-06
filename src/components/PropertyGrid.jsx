@@ -6,7 +6,7 @@ function PropertyGrid({ propiedades, setPropiedadSeleccionada }) {
   if (propiedades.length === 0) {
     return (
       <div className="text-center py-5 my-4">
-        <i className="bi bi-house-exclamation text-warning display-1"></i>
+        <i className="bi bi-house-exclamation text-coral display-1"></i>
         <h3 className="mt-3 fw-bold text-secondary">No se encontraron propiedades</h3>
         <p className="text-muted">Prueba cambiando los criterios de búsqueda o limpiando los filtros avanzados.</p>
       </div>

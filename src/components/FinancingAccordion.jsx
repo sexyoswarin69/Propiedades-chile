@@ -84,7 +84,7 @@ function FinancingAccordion() {
                     aria-expanded="false" 
                     aria-controls="collapseThree"
                   >
-                    <i className="bi bi-cash-coin text-warning me-2"></i>
+                    <i className="bi bi-cash-coin text-coral me-2"></i>
                     3. Pago al Contado o Crédito de Mutuarias
                   </button>
                 </h2>

@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 function Navbar({ filtros, setFiltros }) {
@@ -10,11 +9,11 @@ function Navbar({ filtros, setFiltros }) {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow">
+    <nav className="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm border-bottom">
       <div className="container">
         {/* Logo / Marca */}
         <a className="navbar-brand d-flex align-items-center" href="#!">
-          <i className="bi bi-building-house me-2 text-warning fs-3"></i>
+          <i className="bi bi-building-house me-2 text-coral fs-3"></i>
           <span className="fw-bold tracking-tight">Propiedad Chile</span>
         </a>
 
@@ -51,7 +50,7 @@ function Navbar({ filtros, setFiltros }) {
           {/* Buscador Integrado en el Navbar */}
           <div className="d-flex" role="search">
             <div className="input-group">
-              <span className="input-group-text bg-warning text-dark border-0">
+              <span className="input-group-text bg-light text-coral border-0">
                 <i className="bi bi-search"></i>
               </span>
               <input 

@@ -133,7 +133,7 @@ function AdvisorForm() {
                 </div>
 
                 <div className="d-grid">
-                  <button type="submit" className="btn btn-primary btn-lg fw-bold shadow-sm">
+                  <button type="submit" className="btn btn-coral btn-lg fw-bold shadow-sm">
                     <i className="bi bi-envelope-fill me-2"></i> Enviar Mensaje
                   </button>
                 </div>

@@ -18,9 +18,9 @@ function PropertyModal({ propiedad }) {
         <div className="modal-content border-0 shadow-lg">
           
           {/* Encabezado del Modal */}
-          <div className="modal-header bg-dark text-white">
+          <div className="modal-header bg-slate text-white">
             <h5 className="modal-title fw-bold" id="propertyModalLabel">
-              <i className="bi bi-house-fill text-warning me-2"></i>
+              <i className="bi bi-house-fill text-coral me-2"></i>
               {propiedad.titulo}
             </h5>
             <button 
@@ -97,7 +97,7 @@ function PropertyModal({ propiedad }) {
           {/* Pie del Modal */}
           <div className="modal-footer bg-light">
             <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-            <a href="#contacto-seccion" className="btn btn-warning fw-bold" data-bs-dismiss="modal">
+            <a href="#contacto-seccion" className="btn btn-coral fw-bold" data-bs-dismiss="modal">
               <i className="bi bi-chat-dots-fill me-2"></i>Contactar Asesor
             </a>
           </div>
